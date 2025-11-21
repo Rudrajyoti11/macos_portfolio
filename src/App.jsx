@@ -1,6 +1,4 @@
-import Navbar from "./components/Navbar";
-
-
+import { Navbar,Welcome } from "#components";
 
 const App=() =>{
 
@@ -8,6 +6,7 @@ const App=() =>{
   return (
     <main>
       <Navbar/>
+      <Welcome/>
     </main>
   );
 };
