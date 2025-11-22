@@ -57,9 +57,8 @@ const Dock = () => {
 
   const toggleApp = (app) => {
     if(!app.canOpen)return;
-
     const window=windows[app.id];
-
+    if (!window) return;
     if(window.isOpen){
       closeWindow(app.id);
     }else{
@@ -80,7 +79,7 @@ const Dock = () => {
               data-tooltip-content={name}
               data-tooltip-delay-show={150}
               disabled={!canOpen}
-              onClick={() => toggleApp(id, canOpen)}
+              onClick={() => toggleApp({id, name,icon,canOpen})}
             >
               <img
                 src={`/images/${icon}`}

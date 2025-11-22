@@ -1,4 +1,4 @@
-import { WindowControlls } from "#components";
+import { WindowControls } from "#components";
 import { techStack } from "#constants/index.js";
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import { Check, Flag } from "lucide-react";
@@ -7,7 +7,7 @@ const Terminal = () => {
   return (
     <>
     <div id="window-header">
-            <WindowControlls target="terminal"/>
+            <WindowControls target="terminal"/>
 
         <h2>Tech Stack</h2>
         </div>
@@ -40,7 +40,7 @@ const Terminal = () => {
         </ul>
         <div className="footnote">
             <p>
-                <Check size={20}/>5 of 5 stacks loaded successfully(100%)
+                <Check size={20}/>{techStack.length} of {techStack.length} stacks loaded successfully(100%)
             </p>
             <p className="text-black">
                 <Flag size={15} fill="black"/>

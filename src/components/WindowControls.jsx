@@ -1,6 +1,6 @@
 import useWindowStore from '#store/window.js'
 
-const WindowControlls = ({target}) => {
+const WindowControls = ({target}) => {
     const{closeWindow}=useWindowStore();
   return (
     <div id="window-controls">
@@ -12,4 +12,4 @@ const WindowControlls = ({target}) => {
   )
 }
 
-export default WindowControlls
+export default WindowControls
