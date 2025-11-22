@@ -105,16 +105,12 @@ const techStack = [
     items: ["React.js", "Next.js", "TypeScript"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
-  },
-  {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
@@ -490,7 +486,7 @@ export const locations = {
   trash: TRASH_LOCATION,
 };
 
-const INITIAL_Z_INDEX = 1000;
+const INITIAL_Z_INDEX = 100;
 
 const WINDOW_CONFIG = {
   finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
