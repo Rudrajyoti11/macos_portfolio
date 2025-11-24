@@ -2,7 +2,7 @@
 import { Dock,Navbar,Welcome} from "#components";
 import Home from "#components/Home";
 
-import {Image, Text,Finder, Resume,Safari, Terminal, Contact } from "#windows";
+import {Image, Text,Finder, Resume,Safari, Terminal, Contact, Photos } from "#windows";
 
 import gsap from "gsap";
 
@@ -28,6 +28,7 @@ const App=() =>{
       <Image/>
       <Contact/>
       <Home/>
+      <Photos/>
 
     </main>
   );
