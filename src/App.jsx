@@ -1,5 +1,6 @@
 
 import { Dock,Navbar,Welcome} from "#components";
+import Home from "#components/Home";
 
 import {Image, Text,Finder, Resume,Safari, Terminal, Contact } from "#windows";
 
@@ -26,6 +27,7 @@ const App=() =>{
       <Text/>
       <Image/>
       <Contact/>
+      <Home/>
 
     </main>
   );
